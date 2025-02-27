@@ -1,0 +1,182 @@
+body{
+    font-family: serif;
+    margin: 20px;
+    margin: 0;
+    font-size: 20px;
+}
+nav {                                        
+    background-color:rgb(179,24,24);
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    color: rgb(170, 47, 47);
+}
+.menu ul:hover{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 20px;
+}
+.menu li{
+    font-size: 18px;
+    text-align: center;
+    list-style: none;
+    padding-left: 20px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.menu li:hover{
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-style: inherit;
+    color: red;
+}
+.electrical p{
+    text-align: center;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(rgb(126, 42, 42), green, blue);
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.well {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    background-color: brown;
+    color: white;
+}
+.well img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.us{
+    justify-content: space-between;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: larger;
+    font-style: italic;
+    color: black;
+    text-emphasis: center;
+    display: flex;
+    background-color: brown;
+}
+.us p{
+    font-size: 20px;
+    color: white;
+    text-spacing-trim: 5px;
+    text-align: center;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: larger;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+}
+.PROJECT{
+    display: block;
+    justify-content: space-between;
+    position: relative;
+    align-content: center;
+    align-items: center;
+}
+.PROJECT{
+    width: 200PX;
+    height: 150px;
+}
+p{
+    display: block;
+    text-align: center;
+    font-size: medium;
+}
+.CONTACT{
+    display: flex;
+    border-radius: 10PX;
+    justify-content: center;
+    padding: 0PX;
+    padding: 0PX;
+    list-style-type: none;
+}
+h5{
+    text-align: center;
+    font-size:20px ;
+    font-style: italic;
+    color: white;
+    background-color: brown;
+}
+.btn {
+    display: none;
+}
+@media (max-width: 900px){
+.btn{
+    display: flex;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn i{
+    color: white;
+}
+.menu{
+    flex-direction: column;
+    position: absolute;
+    top:60px;
+    left:-200%;
+    width:50%;
+    height: 40vh;
+    transition: 0.5s;
+    background-color: rgba(165, 42, 42, 0.959);
+    float: left;
+    text-align:center;
+}
+.menu li{
+    display: inline;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    line-height: 10px;
+    float: left;
+    cursor: pointer;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.menu.active{
+    left: 0;
+    }
+}
